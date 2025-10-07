@@ -1,0 +1,21 @@
+# Crea la estructura de carpetas para el proyecto Flutter Braille App
+
+New-Item -ItemType Directory -Path "lib"
+New-Item -ItemType Directory -Path "lib\app"
+New-Item -ItemType Directory -Path "lib\data"
+New-Item -ItemType Directory -Path "lib\data\models"
+New-Item -ItemType Directory -Path "lib\data\repositories"
+New-Item -ItemType Directory -Path "lib\data\services"
+New-Item -ItemType Directory -Path "lib\presentation"
+New-Item -ItemType Directory -Path "lib\presentation\providers"
+New-Item -ItemType Directory -Path "lib\presentation\widgets"
+New-Item -ItemType Directory -Path "lib\presentation\widgets\common"
+New-Item -ItemType Directory -Path "lib\presentation\widgets\welcome"
+New-Item -ItemType Directory -Path "lib\presentation\widgets\home"
+New-Item -ItemType Directory -Path "lib\presentation\widgets\single_char"
+New-Item -ItemType Directory -Path "lib\presentation\widgets\random"
+New-Item -ItemType Directory -Path "lib\presentation\widgets\phrase"
+New-Item -ItemType Directory -Path "lib\presentation\widgets\settings"
+New-Item -ItemType Directory -Path "lib\presentation\themes"
+New-Item -ItemType Directory -Path "lib\utils"
+
