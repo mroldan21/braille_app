@@ -10,7 +10,7 @@ class BrailleProvider extends ChangeNotifier {
   List<BrailleCharacter> _currentPhrase = [];
   int _currentPhraseIndex = 0;
   bool _isPlayingPhrase = false;
-  String _lastRandomChar = '';
+  String _lastRandomChar = 'A';
 
   BrailleCharacter? get currentCharacter => _currentCharacter;
   List<BrailleCharacter> get currentPhrase => _currentPhrase;
